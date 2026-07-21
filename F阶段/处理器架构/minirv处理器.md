@@ -1,7 +1,7 @@
 # minirv 单周期 RISC-V 处理器设计报告
 
 ## 项目概述
-使用 Logisim 设计实现基于 RV32I 指令集的单周期处理器 `minirv`，集成 MMIO 外设，最终在 `RGB Video` 组件上成功输出“一生一芯” Logo。
+使用 Logisim 设计实现基于 RV32I 指令集的单周期处理器 `minirv`，集成 MMIO 外设，最终在 `RGB Video` 组件上成功输出“一生一芯” Logo。（Logisim文件见GPR.circ文件）
 
 ## 实现指令
 - **已验证通过**：`lui`, `addi`, `add`, `sw`, `lw`, `sb`, `lbu`, `jalr`
